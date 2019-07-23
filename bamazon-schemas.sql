@@ -1,0 +1,18 @@
+CREATE DATABASE BamazonDB;
+
+USE BamazonDB;
+
+CREATE table products (
+ItemID INTEGER AUTO_INCREMENT NOT NULL,
+Product VARCHAR (100) NOT NULL,
+Department VARCHAR (100) NOT NULL,
+Price DECIMAL (10,2) NOT NULL,
+Stock INT (15) NOT NULL,
+PRIMARY KEY (ItemID)
+
+);
+
+SELECT * FROM products;
+
+
+
